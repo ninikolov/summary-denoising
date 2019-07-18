@@ -1,0 +1,7 @@
+numpy
+scipy
+nltk
+tqdm
+gensim
+sklearn
+sumy

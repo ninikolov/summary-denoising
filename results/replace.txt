@@ -1,0 +1,792 @@
+ * ---Evaluate model output test.noisy.clean--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.85503 (95%-conf.int. 0.85308 - 0.85679)
+1 ROUGE-1 Average_P: 0.66472 (95%-conf.int. 0.66112 - 0.66830)
+1 ROUGE-1 Average_F: 0.73899 (95%-conf.int. 0.73605 - 0.74182)
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.78656 (95%-conf.int. 0.78410 - 0.78892)
+1 ROUGE-2 Average_P: 0.61476 (95%-conf.int. 0.61094 - 0.61873)
+1 ROUGE-2 Average_F: 0.68182 (95%-conf.int. 0.67855 - 0.68511)
+---------------------------------------------
+1 ROUGE-L Average_R: 0.84424 (95%-conf.int. 0.84220 - 0.84613)
+1 ROUGE-L Average_P: 0.65756 (95%-conf.int. 0.65390 - 0.66123)
+1 ROUGE-L Average_F: 0.73052 (95%-conf.int. 0.72755 - 0.73352)
+
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+Final score:            0.5027906196131416
+
+Computing stat on test.noisy.clean
+Sentences per doc: 3.883 (1.265)
+Mean token count per sentence: 20.12 (12.42)
+Mean tokens per doc: 79.81 (29.34)
+3.883 (1.265)	20.12 (12.42)	79.81 (29.34)	
+
+Repeat rate for test.noisy.clean: 42.02 (13.09)
+Accuracy: 0.95 (0.11)
+Tau: 0.88 (0.29)
+Copy rate: 0.99 (0.0)
+ * Finished eval of test.noisy.clean! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_birnn.txt3.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.35918 (95%-conf.int. 0.35682 - 0.36155)
+1 ROUGE-1 Average_P: 0.37240 (95%-conf.int. 0.36961 - 0.37522)
+1 ROUGE-1 Average_F: 0.35410 (95%-conf.int. 0.35191 - 0.35635)
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.15097 (95%-conf.int. 0.14880 - 0.15314)
+1 ROUGE-2 Average_P: 0.15835 (95%-conf.int. 0.15605 - 0.16089)
+1 ROUGE-2 Average_F: 0.14953 (95%-conf.int. 0.14752 - 0.15180)
+---------------------------------------------
+1 ROUGE-L Average_R: 0.33001 (95%-conf.int. 0.32766 - 0.33232)
+1 ROUGE-L Average_P: 0.34278 (95%-conf.int. 0.34002 - 0.34561)
+1 ROUGE-L Average_F: 0.32563 (95%-conf.int. 0.32339 - 0.32793)
+
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+Final score:            0.1597032793043568
+
+Computing stat on denoise_birnn.txt3.txt.ord
+Sentences per doc: 2.982 (1.016)
+Mean token count per sentence: 18.95 (11.95)
+Mean tokens per doc: 57.7 (29.24)
+2.982 (1.016)	18.95 (11.95)	57.7 (29.24)	
+
+Repeat rate for denoise_birnn.txt3.txt.ord: 51.71 (27.04)
+Accuracy: 0.35 (0.23)
+Tau: -0.25 (0.59)
+Copy rate: 1.0 (0.0)
+ * Finished eval of denoise_birnn.txt3.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_birnn.txt4.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.36486 (95%-conf.int. 0.36250 - 0.36726)
+1 ROUGE-1 Average_P: 0.36946 (95%-conf.int. 0.36676 - 0.37234)
+1 ROUGE-1 Average_F: 0.35574 (95%-conf.int. 0.35359 - 0.35802)
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.15345 (95%-conf.int. 0.15125 - 0.15573)
+1 ROUGE-2 Average_P: 0.15711 (95%-conf.int. 0.15481 - 0.15963)
+1 ROUGE-2 Average_F: 0.15026 (95%-conf.int. 0.14819 - 0.15253)
+---------------------------------------------
+1 ROUGE-L Average_R: 0.33489 (95%-conf.int. 0.33249 - 0.33722)
+1 ROUGE-L Average_P: 0.33965 (95%-conf.int. 0.33693 - 0.34242)
+1 ROUGE-L Average_F: 0.32676 (95%-conf.int. 0.32449 - 0.32907)
+
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+Final score:            0.1619171760323728
+
+Computing stat on denoise_birnn.txt4.txt.ord
+Sentences per doc: 2.982 (1.015)
+Mean token count per sentence: 19.31 (9.05)
+Mean tokens per doc: 58.77 (26.31)
+2.982 (1.015)	19.31 (9.05)	58.77 (26.31)	
+
+Repeat rate for denoise_birnn.txt4.txt.ord: 51.89 (26.96)
+Accuracy: 0.35 (0.23)
+Tau: -0.26 (0.58)
+Copy rate: 1.0 (0.0)
+ * Finished eval of denoise_birnn.txt4.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_birnn.txt.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+
+
+Computing stat on denoise_birnn.txt.txt.ord
+Sentences per doc: nan (nan)
+Mean token count per sentence: nan (nan)
+Mean tokens per doc: nan (nan)
+nan (nan)	nan (nan)	nan (nan)	
+
+None
+Repeat rate for denoise_birnn.txt.txt.ord: nan (nan)
+Accuracy: nan (nan)
+Tau: nan (nan)
+Copy rate: nan (nan)
+ * Finished eval of denoise_birnn.txt.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_bottom-up.txt3.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.41173 (95%-conf.int. 0.40927 - 0.41428)
+1 ROUGE-1 Average_P: 0.43536 (95%-conf.int. 0.43271 - 0.43784)
+1 ROUGE-1 Average_F: 0.40930 (95%-conf.int. 0.40716 - 0.41153)
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.18503 (95%-conf.int. 0.18266 - 0.18734)
+1 ROUGE-2 Average_P: 0.19575 (95%-conf.int. 0.19341 - 0.19819)
+1 ROUGE-2 Average_F: 0.18371 (95%-conf.int. 0.18151 - 0.18596)
+---------------------------------------------
+1 ROUGE-L Average_R: 0.38318 (95%-conf.int. 0.38079 - 0.38558)
+1 ROUGE-L Average_P: 0.40580 (95%-conf.int. 0.40325 - 0.40825)
+1 ROUGE-L Average_F: 0.38118 (95%-conf.int. 0.37906 - 0.38334)
+
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+Final score:            0.18529315426296472
+
+Computing stat on denoise_bottom-up.txt3.txt.ord
+Sentences per doc: 3.108 (0.451)
+Mean token count per sentence: 17.34 (6.9)
+Mean tokens per doc: 55.18 (17.33)
+3.108 (0.451)	17.34 (6.9)	55.18 (17.33)	
+
+Repeat rate for denoise_bottom-up.txt3.txt.ord: 30.45 (9.39)
+Accuracy: 0.26 (0.21)
+Tau: -0.47 (0.53)
+Copy rate: 0.95 (0.0)
+ * Finished eval of denoise_bottom-up.txt3.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_bottom-up.txt4.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.42503 (95%-conf.int. 0.42251 - 0.42768)
+1 ROUGE-1 Average_P: 0.43180 (95%-conf.int. 0.42920 - 0.43440)
+1 ROUGE-1 Average_F: 0.41484 (95%-conf.int. 0.41263 - 0.41709)
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.19227 (95%-conf.int. 0.18983 - 0.19476)
+1 ROUGE-2 Average_P: 0.19520 (95%-conf.int. 0.19285 - 0.19762)
+1 ROUGE-2 Average_F: 0.18734 (95%-conf.int. 0.18511 - 0.18973)
+---------------------------------------------
+1 ROUGE-L Average_R: 0.39486 (95%-conf.int. 0.39244 - 0.39723)
+1 ROUGE-L Average_P: 0.40171 (95%-conf.int. 0.39920 - 0.40420)
+1 ROUGE-L Average_F: 0.38564 (95%-conf.int. 0.38351 - 0.38780)
+
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+Final score:            0.19064734847089887
+
+Computing stat on denoise_bottom-up.txt4.txt.ord
+Sentences per doc: 3.107 (0.441)
+Mean token count per sentence: 18.02 (6.99)
+Mean tokens per doc: 57.28 (16.39)
+3.107 (0.441)	18.02 (6.99)	57.28 (16.39)	
+
+Repeat rate for denoise_bottom-up.txt4.txt.ord: 30.75 (9.27)
+Accuracy: 0.26 (0.21)
+Tau: -0.47 (0.53)
+Copy rate: 0.94 (0.0)
+ * Finished eval of denoise_bottom-up.txt4.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_bottom-up.txt.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+
+
+Computing stat on denoise_bottom-up.txt.txt.ord
+Sentences per doc: nan (nan)
+Mean token count per sentence: nan (nan)
+Mean tokens per doc: nan (nan)
+nan (nan)	nan (nan)	nan (nan)	
+
+None
+Repeat rate for denoise_bottom-up.txt.txt.ord: nan (nan)
+Accuracy: nan (nan)
+Tau: nan (nan)
+Copy rate: nan (nan)
+ * Finished eval of denoise_bottom-up.txt.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_lexrank-1.txt.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+
+
+Computing stat on denoise_lexrank-1.txt.txt.ord
+Sentences per doc: nan (nan)
+Mean token count per sentence: nan (nan)
+Mean tokens per doc: nan (nan)
+nan (nan)	nan (nan)	nan (nan)	
+
+None
+Repeat rate for denoise_lexrank-1.txt.txt.ord: nan (nan)
+Accuracy: nan (nan)
+Tau: nan (nan)
+Copy rate: nan (nan)
+ * Finished eval of denoise_lexrank-1.txt.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_lexrank-2.txt.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+
+
+Computing stat on denoise_lexrank-2.txt.txt.ord
+Sentences per doc: nan (nan)
+Mean token count per sentence: nan (nan)
+Mean tokens per doc: nan (nan)
+nan (nan)	nan (nan)	nan (nan)	
+
+None
+Repeat rate for denoise_lexrank-2.txt.txt.ord: nan (nan)
+Accuracy: nan (nan)
+Tau: nan (nan)
+Copy rate: nan (nan)
+ * Finished eval of denoise_lexrank-2.txt.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_lexrank-3.txt.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+
+
+Computing stat on denoise_lexrank-3.txt.txt.ord
+Sentences per doc: nan (nan)
+Mean token count per sentence: nan (nan)
+Mean tokens per doc: nan (nan)
+nan (nan)	nan (nan)	nan (nan)	
+
+None
+Repeat rate for denoise_lexrank-3.txt.txt.ord: nan (nan)
+Accuracy: nan (nan)
+Tau: nan (nan)
+Copy rate: nan (nan)
+ * Finished eval of denoise_lexrank-3.txt.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_lexrank-4.txt.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+
+
+Computing stat on denoise_lexrank-4.txt.txt.ord
+Sentences per doc: nan (nan)
+Mean token count per sentence: nan (nan)
+Mean tokens per doc: nan (nan)
+nan (nan)	nan (nan)	nan (nan)	
+
+None
+Repeat rate for denoise_lexrank-4.txt.txt.ord: nan (nan)
+Accuracy: nan (nan)
+Tau: nan (nan)
+Copy rate: nan (nan)
+ * Finished eval of denoise_lexrank-4.txt.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_lexrank-5.txt.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+
+
+Computing stat on denoise_lexrank-5.txt.txt.ord
+Sentences per doc: nan (nan)
+Mean token count per sentence: nan (nan)
+Mean tokens per doc: nan (nan)
+nan (nan)	nan (nan)	nan (nan)	
+
+None
+Repeat rate for denoise_lexrank-5.txt.txt.ord: nan (nan)
+Accuracy: nan (nan)
+Tau: nan (nan)
+Copy rate: nan (nan)
+ * Finished eval of denoise_lexrank-5.txt.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_lexrank-6.txt.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+
+
+Computing stat on denoise_lexrank-6.txt.txt.ord
+Sentences per doc: nan (nan)
+Mean token count per sentence: nan (nan)
+Mean tokens per doc: nan (nan)
+nan (nan)	nan (nan)	nan (nan)	
+
+None
+Repeat rate for denoise_lexrank-6.txt.txt.ord: nan (nan)
+Accuracy: nan (nan)
+Tau: nan (nan)
+Copy rate: nan (nan)
+ * Finished eval of denoise_lexrank-6.txt.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_noisy_ground_truth.txt.gt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+
+
+Computing stat on denoise_noisy_ground_truth.txt.gt.ord
+Sentences per doc: nan (nan)
+Mean token count per sentence: nan (nan)
+Mean tokens per doc: nan (nan)
+nan (nan)	nan (nan)	nan (nan)	
+
+None
+Repeat rate for denoise_noisy_ground_truth.txt.gt.ord: nan (nan)
+Accuracy: nan (nan)
+Tau: nan (nan)
+Copy rate: nan (nan)
+ * Finished eval of denoise_noisy_ground_truth.txt.gt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_noisy_ground_truth.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+
+
+Computing stat on denoise_noisy_ground_truth.txt.ord
+Sentences per doc: nan (nan)
+Mean token count per sentence: nan (nan)
+Mean tokens per doc: nan (nan)
+nan (nan)	nan (nan)	nan (nan)	
+
+None
+Repeat rate for denoise_noisy_ground_truth.txt.ord: nan (nan)
+Accuracy: nan (nan)
+Tau: nan (nan)
+Copy rate: nan (nan)
+ * Finished eval of denoise_noisy_ground_truth.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_pointer-gen-cov.txt3.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.41283 (95%-conf.int. 0.40999 - 0.41556)
+1 ROUGE-1 Average_P: 0.39814 (95%-conf.int. 0.39539 - 0.40082)
+1 ROUGE-1 Average_F: 0.39036 (95%-conf.int. 0.38805 - 0.39258)
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.17932 (95%-conf.int. 0.17683 - 0.18182)
+1 ROUGE-2 Average_P: 0.17427 (95%-conf.int. 0.17189 - 0.17678)
+1 ROUGE-2 Average_F: 0.16991 (95%-conf.int. 0.16770 - 0.17214)
+---------------------------------------------
+1 ROUGE-L Average_R: 0.38050 (95%-conf.int. 0.37775 - 0.38324)
+1 ROUGE-L Average_P: 0.36774 (95%-conf.int. 0.36504 - 0.37046)
+1 ROUGE-L Average_F: 0.36017 (95%-conf.int. 0.35782 - 0.36234)
+
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+Final score:            0.18117976913903022
+
+Computing stat on denoise_pointer-gen-cov.txt3.txt.ord
+Sentences per doc: 2.836 (0.563)
+Mean token count per sentence: 20.91 (8.07)
+Mean tokens per doc: 60.23 (16.53)
+2.836 (0.563)	20.91 (8.07)	60.23 (16.53)	
+
+Repeat rate for denoise_pointer-gen-cov.txt3.txt.ord: 30.63 (12.46)
+Accuracy: 0.26 (0.21)
+Tau: -0.53 (0.52)
+Copy rate: 0.95 (0.0)
+ * Finished eval of denoise_pointer-gen-cov.txt3.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_pointer-gen-cov.txt4.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.41954 (95%-conf.int. 0.41678 - 0.42223)
+1 ROUGE-1 Average_P: 0.39406 (95%-conf.int. 0.39148 - 0.39669)
+1 ROUGE-1 Average_F: 0.39159 (95%-conf.int. 0.38923 - 0.39376)
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.18209 (95%-conf.int. 0.17969 - 0.18457)
+1 ROUGE-2 Average_P: 0.17229 (95%-conf.int. 0.16986 - 0.17477)
+1 ROUGE-2 Average_F: 0.17031 (95%-conf.int. 0.16807 - 0.17257)
+---------------------------------------------
+1 ROUGE-L Average_R: 0.38603 (95%-conf.int. 0.38330 - 0.38871)
+1 ROUGE-L Average_P: 0.36337 (95%-conf.int. 0.36076 - 0.36597)
+1 ROUGE-L Average_F: 0.36071 (95%-conf.int. 0.35842 - 0.36286)
+
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+Final score:            0.18574895552658754
+
+Computing stat on denoise_pointer-gen-cov.txt4.txt.ord
+Sentences per doc: 2.837 (0.563)
+Mean token count per sentence: 21.99 (8.11)
+Mean tokens per doc: 63.22 (16.64)
+2.837 (0.563)	21.99 (8.11)	63.22 (16.64)	
+
+Repeat rate for denoise_pointer-gen-cov.txt4.txt.ord: 30.98 (12.34)
+Accuracy: 0.26 (0.2)
+Tau: -0.53 (0.52)
+Copy rate: 0.95 (0.0)
+ * Finished eval of denoise_pointer-gen-cov.txt4.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_pointer-gen-cov.txt.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+
+
+Computing stat on denoise_pointer-gen-cov.txt.txt.ord
+Sentences per doc: nan (nan)
+Mean token count per sentence: nan (nan)
+Mean tokens per doc: nan (nan)
+nan (nan)	nan (nan)	nan (nan)	
+
+None
+Repeat rate for denoise_pointer-gen-cov.txt.txt.ord: nan (nan)
+Accuracy: nan (nan)
+Tau: nan (nan)
+Copy rate: nan (nan)
+ * Finished eval of denoise_pointer-gen-cov.txt.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_pointer-gen.txt3.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.36542 (95%-conf.int. 0.36281 - 0.36810)
+1 ROUGE-1 Average_P: 0.38134 (95%-conf.int. 0.37862 - 0.38415)
+1 ROUGE-1 Average_F: 0.36019 (95%-conf.int. 0.35792 - 0.36249)
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.15593 (95%-conf.int. 0.15369 - 0.15823)
+1 ROUGE-2 Average_P: 0.16426 (95%-conf.int. 0.16173 - 0.16674)
+1 ROUGE-2 Average_F: 0.15422 (95%-conf.int. 0.15207 - 0.15636)
+---------------------------------------------
+1 ROUGE-L Average_R: 0.33533 (95%-conf.int. 0.33283 - 0.33799)
+1 ROUGE-L Average_P: 0.35062 (95%-conf.int. 0.34799 - 0.35335)
+1 ROUGE-L Average_F: 0.33086 (95%-conf.int. 0.32860 - 0.33311)
+
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+Final score:            0.16262352354043286
+
+Computing stat on denoise_pointer-gen.txt3.txt.ord
+Sentences per doc: 2.829 (0.588)
+Mean token count per sentence: 19.36 (8.42)
+Mean tokens per doc: 55.82 (16.36)
+2.829 (0.588)	19.36 (8.42)	55.82 (16.36)	
+
+Repeat rate for denoise_pointer-gen.txt3.txt.ord: 47.57 (26.49)
+Accuracy: 0.26 (0.19)
+Tau: -0.61 (0.5)
+Copy rate: 0.95 (0.0)
+ * Finished eval of denoise_pointer-gen.txt3.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_pointer-gen.txt4.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.36844 (95%-conf.int. 0.36579 - 0.37120)
+1 ROUGE-1 Average_P: 0.37961 (95%-conf.int. 0.37684 - 0.38251)
+1 ROUGE-1 Average_F: 0.36093 (95%-conf.int. 0.35870 - 0.36326)
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.15721 (95%-conf.int. 0.15489 - 0.15959)
+1 ROUGE-2 Average_P: 0.16329 (95%-conf.int. 0.16074 - 0.16577)
+1 ROUGE-2 Average_F: 0.15444 (95%-conf.int. 0.15223 - 0.15664)
+---------------------------------------------
+1 ROUGE-L Average_R: 0.33770 (95%-conf.int. 0.33510 - 0.34047)
+1 ROUGE-L Average_P: 0.34863 (95%-conf.int. 0.34592 - 0.35134)
+1 ROUGE-L Average_F: 0.33115 (95%-conf.int. 0.32895 - 0.33340)
+
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+Final score:            0.1653727269860453
+
+Computing stat on denoise_pointer-gen.txt4.txt.ord
+Sentences per doc: 2.83 (0.587)
+Mean token count per sentence: 19.9 (7.05)
+Mean tokens per doc: 57.31 (14.71)
+2.83 (0.587)	19.9 (7.05)	57.31 (14.71)	
+
+Repeat rate for denoise_pointer-gen.txt4.txt.ord: 47.82 (26.36)
+Accuracy: 0.26 (0.19)
+Tau: -0.61 (0.49)
+Copy rate: 0.95 (0.0)
+ * Finished eval of denoise_pointer-gen.txt4.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_pointer-gen.txt.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+
+
+Computing stat on denoise_pointer-gen.txt.txt.ord
+Sentences per doc: nan (nan)
+Mean token count per sentence: nan (nan)
+Mean tokens per doc: nan (nan)
+nan (nan)	nan (nan)	nan (nan)	
+
+None
+Repeat rate for denoise_pointer-gen.txt.txt.ord: nan (nan)
+Accuracy: nan (nan)
+Tau: nan (nan)
+Copy rate: nan (nan)
+ * Finished eval of denoise_pointer-gen.txt.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_rnn-ext-1.txt.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+
+
+Computing stat on denoise_rnn-ext-1.txt.txt.ord
+Sentences per doc: nan (nan)
+Mean token count per sentence: nan (nan)
+Mean tokens per doc: nan (nan)
+nan (nan)	nan (nan)	nan (nan)	
+
+None
+Repeat rate for denoise_rnn-ext-1.txt.txt.ord: nan (nan)
+Accuracy: nan (nan)
+Tau: nan (nan)
+Copy rate: nan (nan)
+ * Finished eval of denoise_rnn-ext-1.txt.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_rnn-ext-2.txt.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+
+
+Computing stat on denoise_rnn-ext-2.txt.txt.ord
+Sentences per doc: nan (nan)
+Mean token count per sentence: nan (nan)
+Mean tokens per doc: nan (nan)
+nan (nan)	nan (nan)	nan (nan)	
+
+None
+Repeat rate for denoise_rnn-ext-2.txt.txt.ord: nan (nan)
+Accuracy: nan (nan)
+Tau: nan (nan)
+Copy rate: nan (nan)
+ * Finished eval of denoise_rnn-ext-2.txt.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_rnn-ext-3.txt.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+
+
+Computing stat on denoise_rnn-ext-3.txt.txt.ord
+Sentences per doc: nan (nan)
+Mean token count per sentence: nan (nan)
+Mean tokens per doc: nan (nan)
+nan (nan)	nan (nan)	nan (nan)	
+
+None
+Repeat rate for denoise_rnn-ext-3.txt.txt.ord: nan (nan)
+Accuracy: nan (nan)
+Tau: nan (nan)
+Copy rate: nan (nan)
+ * Finished eval of denoise_rnn-ext-3.txt.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_rnn-ext-4.txt.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+
+
+Computing stat on denoise_rnn-ext-4.txt.txt.ord
+Sentences per doc: nan (nan)
+Mean token count per sentence: nan (nan)
+Mean tokens per doc: nan (nan)
+nan (nan)	nan (nan)	nan (nan)	
+
+None
+Repeat rate for denoise_rnn-ext-4.txt.txt.ord: nan (nan)
+Accuracy: nan (nan)
+Tau: nan (nan)
+Copy rate: nan (nan)
+ * Finished eval of denoise_rnn-ext-4.txt.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_rnn-ext-5.txt.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+
+
+Computing stat on denoise_rnn-ext-5.txt.txt.ord
+Sentences per doc: nan (nan)
+Mean token count per sentence: nan (nan)
+Mean tokens per doc: nan (nan)
+nan (nan)	nan (nan)	nan (nan)	
+
+None
+Repeat rate for denoise_rnn-ext-5.txt.txt.ord: nan (nan)
+Accuracy: nan (nan)
+Tau: nan (nan)
+Copy rate: nan (nan)
+ * Finished eval of denoise_rnn-ext-5.txt.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_rnn-ext-6.txt.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+
+
+Computing stat on denoise_rnn-ext-6.txt.txt.ord
+Sentences per doc: nan (nan)
+Mean token count per sentence: nan (nan)
+Mean tokens per doc: nan (nan)
+nan (nan)	nan (nan)	nan (nan)	
+
+None
+Repeat rate for denoise_rnn-ext-6.txt.txt.ord: nan (nan)
+Accuracy: nan (nan)
+Tau: nan (nan)
+Copy rate: nan (nan)
+ * Finished eval of denoise_rnn-ext-6.txt.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_rnn-rl-rerank.txt3.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.46362 (95%-conf.int. 0.46122 - 0.46595)
+1 ROUGE-1 Average_P: 0.38197 (95%-conf.int. 0.37969 - 0.38433)
+1 ROUGE-1 Average_F: 0.40784 (95%-conf.int. 0.40594 - 0.40969)
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.20160 (95%-conf.int. 0.19940 - 0.20373)
+1 ROUGE-2 Average_P: 0.16629 (95%-conf.int. 0.16443 - 0.16824)
+1 ROUGE-2 Average_F: 0.17721 (95%-conf.int. 0.17529 - 0.17912)
+---------------------------------------------
+1 ROUGE-L Average_R: 0.43713 (95%-conf.int. 0.43484 - 0.43954)
+1 ROUGE-L Average_P: 0.36028 (95%-conf.int. 0.35804 - 0.36256)
+1 ROUGE-L Average_F: 0.38460 (95%-conf.int. 0.38267 - 0.38649)
+
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+Final score:            0.2024710957311385
+
+Computing stat on denoise_rnn-rl-rerank.txt3.txt.ord
+Sentences per doc: 4.928 (0.86)
+Mean token count per sentence: 14.03 (3.41)
+Mean tokens per doc: 72.2 (16.38)
+4.928 (0.86)	14.03 (3.41)	72.2 (16.38)	
+
+Repeat rate for denoise_rnn-rl-rerank.txt3.txt.ord: 39.24 (10.42)
+Accuracy: 0.26 (0.24)
+Tau: -0.05 (0.58)
+Copy rate: 1.0 (0.0)
+ * Finished eval of denoise_rnn-rl-rerank.txt3.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_rnn-rl-rerank.txt4.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.46364 (95%-conf.int. 0.46122 - 0.46596)
+1 ROUGE-1 Average_P: 0.38197 (95%-conf.int. 0.37969 - 0.38433)
+1 ROUGE-1 Average_F: 0.40785 (95%-conf.int. 0.40596 - 0.40970)
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.20161 (95%-conf.int. 0.19942 - 0.20373)
+1 ROUGE-2 Average_P: 0.16630 (95%-conf.int. 0.16444 - 0.16824)
+1 ROUGE-2 Average_F: 0.17722 (95%-conf.int. 0.17530 - 0.17912)
+---------------------------------------------
+1 ROUGE-L Average_R: 0.43714 (95%-conf.int. 0.43486 - 0.43956)
+1 ROUGE-L Average_P: 0.36028 (95%-conf.int. 0.35805 - 0.36256)
+1 ROUGE-L Average_F: 0.38461 (95%-conf.int. 0.38268 - 0.38650)
+
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+Final score:            0.2024743360916866
+
+Computing stat on denoise_rnn-rl-rerank.txt4.txt.ord
+Sentences per doc: 4.928 (0.86)
+Mean token count per sentence: 14.03 (3.41)
+Mean tokens per doc: 72.2 (16.38)
+4.928 (0.86)	14.03 (3.41)	72.2 (16.38)	
+
+Repeat rate for denoise_rnn-rl-rerank.txt4.txt.ord: 39.24 (10.42)
+Accuracy: 0.26 (0.24)
+Tau: -0.05 (0.58)
+Copy rate: 1.0 (0.0)
+ * Finished eval of denoise_rnn-rl-rerank.txt4.txt.ord! * 
+
+*********************************************
+
+ * ---Evaluate model output denoise_rnn-rl-rerank.txt.txt.ord--- * 
+ROUGE path: /home/nikola/PhD/code/summary_rewriting/RELEASE-1.5.5
+RUNNING ROUGE...
+METEOR path: /home/nikola/PhD/code/summary_rewriting/meteor-1.5/meteor-1.5.jar
+RUNNING METEOR...
+
+
+Computing stat on denoise_rnn-rl-rerank.txt.txt.ord
+Sentences per doc: nan (nan)
+Mean token count per sentence: nan (nan)
+Mean tokens per doc: nan (nan)
+nan (nan)	nan (nan)	nan (nan)	
+
+None
+Repeat rate for denoise_rnn-rl-rerank.txt.txt.ord: nan (nan)
+Accuracy: nan (nan)
+Tau: nan (nan)
+Copy rate: nan (nan)
+ * Finished eval of denoise_rnn-rl-rerank.txt.txt.ord! * 
+
+*********************************************
+

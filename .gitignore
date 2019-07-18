@@ -1,0 +1,5 @@
+.idea/
+__pycache__/
+*.py[cod]
+fairseq-apr19/build
+fairseq-apr19/fairseq.egg-info
